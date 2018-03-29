@@ -96,7 +96,7 @@ if($action == 'post')
             else
             {
                 $goto = !empty($cfg_cmspath) ? $cfg_cmspath : '/';
-                $bkmsg = '发布成功，请等待管理员处理...';
+                $bkmsg = 'ok...';
             }
             showmsg($bkmsg, $goto);
         }
